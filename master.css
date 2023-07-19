@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Bungee+Inline&family=Lobster&family=Nanum+Gothic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* img {
+  width: 100%;
+} */
+
+header > img,
+main > img,
+section > img,
+.cobayo > img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+a,
+label {
+  font-family: "Nanum Gothic", sans-serif;
+  color: black;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+#titulo {
+  font-size: 2.6rem;
+  font-family: "Bowlby One SC", cursive;
+
+  margin-bottom: -10px;
+}
+
+h1 {
+  font-size: 1.7rem;
+  font-family: "Bowlby One SC", cursive;
+  text-align: center;
+  letter-spacing: 1.1px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 1rem;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+
+  background: linear-gradient(pink, white);
+}
+
+.titulos {
+  width: auto;
+  text-align: center;
+}
+
+#img-logo {
+  width: 20%;
+}
+
+#nav-bar {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+main > section,
+div {
+  padding: 7px 10px 7px 10px;
+}
+
+#quienes-somos > img {
+  padding-top: 15px;
+}
+
+section,
+div > p {
+  text-align: center;
+}
+
+.cobayo > img {
+  border-radius: 50%;
+}
+
+#dudas-y-consultas,
+.texto-consulta {
+  display: flex;
+  flex-direction: column;
+}
+
+#contacto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  margin-top: 15px;
+}
+
+form {
+  margin-top: 5px;
+}
+
+label {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  margin-top: 2px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 3px pink;
+}
+
+#boton {
+  margin-top: 8px;
+  padding: 4px 20px;
+}
+
+footer {
+  background: linear-gradient(white, pink);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.redes-sociales {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.datos-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.datos-contacto > a {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  p,
+  label {
+    font-size: 1.4rem;
+  }
+  a {
+    font-size: 1.3rem;
+  }
+  /* Css encabezado */
+  #titulo {
+    font-size: 2.2rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 2rem;
+    font-family: "Lobster", cursive;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  #img-logo {
+    width: 40%;
+  }
+  #encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    background: linear-gradient(pink, white);
+  }
+  #opciones {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* CSS a #manada */
+  #manada {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* CSS al footer */
+  footer {
+    padding-bottom: 30px;
+  }
+  .datos-contacto > a {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+}
